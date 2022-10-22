@@ -1,9 +1,9 @@
 :root
 { --favcolor: rgb(22, 162, 178); }
 
-h1 { text-align: left; background-color: black; color: var(--favcolor); font-size: 42pt; }
-P { text-align: left; color: black; font-size: 12pt; }
-body { background-image: conic-gradient(red, blue, white); } 
+h1 { text-align: right; background-color: black; color: var(--favcolor); font-size: 42pt; }
+P { text-align: left; color: black; font-size: 20pt; }
+body { background-image: conic-gradient(blue, white, gold); } 
 h2 { float: left; color: black; font-size: 28pt; }
 section { color: white; float: upper-right; font-size: 20pt; background-repeat: no repeat; } 
 img { display: block; margin-left: auto; margin-right: auto; }
