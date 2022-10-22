@@ -4,4 +4,5 @@
 h1 { text-align: right; background-color: black; color: var(--favcolor); font-size: 42pt; }
 P { text-align: center; color: black; font-size: 20pt; }
 body { background-image: conic-gradient(red, blue, white); } 
-section { color: blue; float: right-center; } 
+h2 { text-align: right }
+section { color: blue; float: right; } 
