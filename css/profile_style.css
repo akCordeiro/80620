@@ -1,5 +1,8 @@
 :root
-{ --favcolor: rgb(125, 0, 0); }
+{ --favcolor: rgb(22, 162, 178); }
+
+h1
+{ text-align: left; background-color: black; color: var(--favcolor); font-size: 38pt; }
 
 P { color: blue; }
 body { background-color: white; } 
