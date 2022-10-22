@@ -3,5 +3,5 @@
 
 h1 { text-align: right; background-color: black; color: var(--favcolor); font-size: 42pt; }
 P { text-align: left-center; color: black; font-size: 20pt; }
-body { background-image: (red, blue, white); } 
+body { background-image: conic-gradient(red, blue, white); } 
 section { color: blue; float: right-center; } 
