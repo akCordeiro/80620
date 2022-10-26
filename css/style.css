@@ -4,6 +4,6 @@
 h1 { text-align: right; background-color: black; color: var(--favcolor); font-size: 42pt; }
 P { text-align: center; color: black; font-size: 20pt; }
 body { background-image: linear-gradient(blue, white, gold); } 
-h2 { float: upper-right; color: white; font-size: 28pt; }
+h2 { float: upper-right; color: black; font-size: 28pt; }
 section { color: white; float: upper-right; font-size: 20pt; background-repeat: no repeat; } 
 img { display: block; margin-left: auto; margin-right: auto; }
