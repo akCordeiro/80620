@@ -1,2 +1,3 @@
 :root
 { --favcolor: rgb(22, 162, 178); }
+h1 { text-align: right; background-color: black; color: var(--favcolor); font-size: 42pt; }
