@@ -1,9 +1,6 @@
 :root
 { --favcolor: rgb(22, 162, 178); }
-
 h1 { text-align: right; background-color: black; color: var(--favcolor); font-size: 42pt; }
-P { text-align: left; color: black; font-size: 20pt; }
 body { background-image: linear-gradient(blue, white, gold); } 
-h2 { float: left; color: black; font-size: 28pt; }
-section { color: white; float: upper-right; font-size: 20pt; background-repeat: no repeat; } 
-img { display: block; margin-left: auto; margin-right: auto; }
+.happy { cursor: url("images/31_UNC_Collegiate_UNC+WM_block.jpg"), auto; }
+h2 { text-align: left; text-decoration: underline; font-size: 21pt; }
