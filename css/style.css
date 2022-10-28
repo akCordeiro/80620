@@ -1,7 +1,7 @@
 :root
 { --favcolor: rgb(22, 162, 178); }
 
-h1 { text-align: right; background-color: black; color: var(--favcolor); font-size: 42pt; }
+h1 { text-align: right; text-decoration: underline; background-color: black; color: var(--favcolor); font-size: 42pt; }
 P { text-align: center; color: black; font-size: 20pt; }
 body { background-image: linear-gradient(blue, white, gold); } 
 h2 { float: upper-right; color: black; font-size: 28pt; }
