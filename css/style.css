@@ -7,3 +7,4 @@ body { background-image: linear-gradient(blue, white, gold); }
 h2 { float: upper-right; color: black; font-size: 28pt; }
 section { color: black; float: upper-right; font-size: 20pt; background-repeat: no repeat; } 
 img { display: block; margin-left: auto; margin-right: auto; }
+.sad { cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto; }
