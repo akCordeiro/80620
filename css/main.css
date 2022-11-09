@@ -1,7 +1,7 @@
 :root
 { --favcolor: rgb(22, 162, 178); }
 h1 { text-align: right; text-decoration: underline; background-color: black; color: var(--favcolor); font-size: 42pt; }
-body { background-image: linear-gradient(blue, white, gold); background-repeat: repeat-y;} 
+body { background-image: linear-gradient(blue, white, gold); background-repeat: no-repeat;} 
 .happy { cursor: url("images/31_UNC_Collegiate_UNC+WM_block.jpg"), auto; }
 h2 { text-align: left; text-decoration: underline; font-size: 21pt; }
 html { min-height: 100% }
