@@ -1,6 +1,6 @@
 :root
 { --favcolor: rgb(22, 162, 178); }
-h1 { text-align: right; text-decoration: underline; background-color: lightgray; color: var(--favcolor); font-size: 42pt; }
+h1 { text-align: left; text-decoration: underline; background-color: lightgray; color: var(--favcolor); font-size: 42pt; }
 body { background-image: linear-gradient(blue, white, green); background-repeat: no-repeat;} 
 h2 { text-align: left; text-decoration: underline; font-size: 21pt; }
 html { min-height: 100% }
