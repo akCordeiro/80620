@@ -1,48 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link href="css/interlock.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
-    <title>Hours</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hours of Operation</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <style>
-        table, th, td { border:1px solid black;}
+      body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #333;
+        background-color: #f5f5f5;
+        padding: 2rem;
+      }
+      h1 {
+        font-size: 2rem;
+        margin-top: 0;
+      }
+      table {
+        width: 100%;
+        margin-bottom: 2rem;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+      }
+      table th, table td {
+        padding: 1rem;
+        text-align: left;
+        border: 1px solid #ccc;
+      }
+      table th {
+        background-color: #eee;
+      }
+      a {
+        color: #333;
+        text-decoration: none;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 0.2rem;
+        transition: all 0.2s;
+      }
+      a:hover {
+        border-bottom-color: #333;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+      }
     </style>
   </head>
   <body>
-    <h1> Hours of Operation </h1>
-    <table style="width:50%">
-  <tr>
-    <th>Day of the Week</th>
-    <th>Hours</th>
-  </tr>
-  <tr>
-    <td>Monday</td>
-    <td>7:30am - 6:00pm</td>
-  <tr>
-  	<td>Tuesday</td>
-    <td>Closed</td>
-  </tr>
-  	<td>Wednesday</td>
-    <td>1:00pm - 6:00pm</td>
-  <tr>
-  	<td>Thursday</td>
-    <td>Closed</td>
-  </tr>
-  <tr>
-  	<td>Friday</td>
-    <td>7:30am - 5:00pm</td>
-  </tr>
-  	<td>Saturday</td>
-  	<td>Closed</td>
-  <tr>
-  	<td>Sunday</td>
-    <td>Closed</td>
-
-  </table>
+    <h1>Hours of Operation</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Day of the Week</th>
+          <th>Hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>7:30am - 6:00pm</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>1:00pm - 6:00pm</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>7:30am - 5:00pm</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>Closed</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>Closed</td>
+        </tr>
+      </tbody>
+    </table>
+    <section>
+      <div>
+        <a href="marketing.html">
+          <img src="https://via.placeholder.com/50" alt="Home Button">
+        </a>
+      </div>
+      <div>
+        <a href="issue.html">Report an Issue</a>
+      </div>
+    </section>
   </body>
-  <section>
-  <div><a href="marketing.html"><img src="images/home_button.png" alt="home button" width="50" height="50"></a></div>
-  <div><a href="issue.html">Report an Issue</a></div>
-  </section>
 </html>
+
