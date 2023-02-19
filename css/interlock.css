@@ -1,6 +1,107 @@
-:root
-{ --favcolor: rgb(22, 162, 178); }
-h1 { text-align: left; text-decoration: underline; background-color: lightgray; color: var(--favcolor); font-size: 42pt; }
-body { background-image: linear-gradient(blue, white, green); background-repeat: no-repeat;} 
-h2 { text-align: left; text-decoration: underline; font-size: 21pt; }
-html { min-height: 100% }
+:root {
+  --favcolor: rgb(22, 162, 178);
+  --bggradient: linear-gradient(to bottom, #00ccff, #fff, #00ff00);
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  background-color: lightgray;
+  color: var(--favcolor);
+  font-size: 48pt;
+  padding: 20px;
+  margin: 0;
+}
+
+body {
+  background-image: var(--bggradient);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+h2 {
+  text-align: left;
+  text-decoration: underline;
+  font-size: 24pt;
+  margin-bottom: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+a {
+  color: var(--favcolor);
+  text-decoration: none;
+  border-bottom: 2px solid var(--favcolor);
+  padding-bottom: 0.2rem;
+  transition: all 0.2s;
+}
+
+a:hover {
+  border-bottom-color: white;
+  color: white;
+}
+
+button {
+  background-color: var(--favcolor);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18pt;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: white;
+  color: var(--favcolor);
+}
+
+input[type="text"], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid var(--favcolor);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18pt;
+}
+
+input[type="submit"] {
+  background-color: var(--favcolor);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18pt;
+  transition: all 0.2s;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: var(--favcolor);
+}
+
+textarea {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid var(--favcolor);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18pt;
+}
+
+label {
+  font-size: 18pt;
+}
+
