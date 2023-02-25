@@ -1,6 +1,82 @@
-:root
-{ --favcolor: rgb(22, 162, 178); }
-h1 { text-align: right; background-color: black; color: var(--favcolor); font-size: 42pt; }
-body { background-image: linear-gradient(blue, white, gold); } 
-.happy { cursor: url("images/31_UNC_Collegiate_UNC+WM_block.jpg"), auto; }
-h2 { text-align: left; text-decoration: underline; font-size: 21pt; }
+:root {
+  --favcolor: rgb(22, 162, 178);
+  --bggradient: linear-gradient(to bottom, #00ccff, #fff, #00ff00);
+  --font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background-color: #3d3d3d;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #3d3d3d;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  background-color: #3d3d3d;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
