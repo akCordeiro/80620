@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 20px 0; /* add 20 pixels of padding to the top and bottom */
   font-family: Arial, sans-serif;
   font-size: 16px;
 }
@@ -50,11 +50,11 @@ nav a:hover {
 }
 
 main {
-  margin: 20px;
+  margin: 0 20px; /* reduce the margin to 0 on the top and bottom, and add 20 pixels to the left and right */
 }
 
 section {
-  margin: 20px;
+  margin: 20px 0; /* add 20 pixels of margin to the top and bottom */
 }
 
 h1, h2, h3 {
@@ -63,8 +63,8 @@ h1, h2, h3 {
 
 .image-container {
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 400px; /* change width to 400 pixels */
+  height: 300px; /* change height to 300 pixels */
   overflow: hidden;
 }
 
@@ -100,3 +100,4 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
