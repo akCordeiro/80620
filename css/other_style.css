@@ -70,8 +70,8 @@ h1, h2, h3 {
 
 .image-container img {
   display: block;
-  width: 33%;
-  height: 33%;
+  width: 30%;
+  height: 30%;
   transition: all 0.3s ease;
 }
 
