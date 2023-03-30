@@ -62,23 +62,19 @@ h1, h2, h3 {
 }
 
 .image-container {
-  position: relative;
-  width: 1231.33px; /* change width to 400 pixels */
-  height: 500px; /* change height to 300 pixels */
-  overflow: hidden;
+position: relative;
+width: 100%; /* set the width to 100% to make the images span the entire container */
+height: 300px;
+overflow: hidden;
+text-align: center; /* horizontally center the images within the container */
 }
 
 .image-container img {
-  display: block;
-  width: 30%;
-  height: 30%;
-  transition: all 0.3s ease;
-}
-
-.image-container img:hover {
-  transform: scale(1.2);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  border: 1px solid #ccc;
+display: inline-block; /* change the display property to inline-block */
+width: 30%;
+height: 100%; /* set the height to 100% to make the images the same height as the container */
+margin: 0 10px; /* add some margin to the left and right of each image for spacing */
+transition: all 0.3s ease;
 }
 
 ul {
